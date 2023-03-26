@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#personaje {
+    background-color: white;
+    padding: 50px 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 5px 26px 8px rgb(206, 206, 206);
+    width: 350px;
+    height: 350px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#personaje img {
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    width: 180px;
+}
+
+#personaje h4 {
+    color: rgb(72, 145, 212);
+    font-size: 30px;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#personaje p {
+    color: gray;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
